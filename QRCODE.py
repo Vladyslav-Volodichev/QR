@@ -6,9 +6,9 @@ def get_qrcode(url='Instagram.com', name='QR '):
     qr.save(stream=f'{name}.png')
 
     return f'QR code was created! Open the {name}.png'
-#в url вставить ссылку по которой будет создан QR код 
+#in url enter the link to creat QR code
 def main():
-    print(get_qrcode(url='', name='instawhatssoup'))
+    print(get_qrcode(url='+32486296520', name='instawhatssoup'))
 
 
 if __name__ =='__main__':
